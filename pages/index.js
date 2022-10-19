@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="Alternativa | Home" />
+        <title>Alternativa | Coming soon</title>
+        <meta name="description" content="Reusable period underwear. Embrace your inner flow." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
