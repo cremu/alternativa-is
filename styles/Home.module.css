@@ -7,7 +7,6 @@
   justify-content: flex-start;
   align-items: stretch;
 }
-
 /** HEADER **/
 .header {
   position: relative;
@@ -26,8 +25,6 @@
   top: 10px;
   left: 40px;
 }
-
-
 /** MAIN **/
 .main {
   flex-grow: 2;
@@ -62,8 +59,6 @@
   line-height: 1.85rem;
   letter-spacing: .1rem;
 }
-
-
 /** FOOTER **/
 .footer {
   display: flex;
@@ -87,7 +82,6 @@
   text-decoration: underline;
   cursor: pointer;
 }
-
 
 /**** MEDIA QUERIES ****/
 @media only screen and (max-width: 550px) {
@@ -116,7 +110,6 @@
     font-size: 1.35rem;
     line-height: 1.35rem;
   }
-
   /* FOOTER */
   .footer {
     flex-direction: column;
