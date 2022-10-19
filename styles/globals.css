@@ -1,26 +1,33 @@
+@font-face {
+  font-family: 'Avenir Black';
+  font-display: swap;
+  font-style: normal;
+  src: url('../public/fonts/avenir-black.woff2') format("woff2");
+}
+@font-face {
+  font-family: 'Avenir Black Oblique';
+  font-display: swap;
+  font-style: normal;
+  src: url('../public/fonts/avenir-black-oblique.woff2') format("woff2");
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Avenir Black', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Color Palette */
+:root {
+  --colors-alt-white: rgb(203, 203, 203);
 }
