@@ -20,13 +20,15 @@ export default function Home() {
             height={75}
           />
         </div>
-        <Image
-          src='/logo-text.webp'
-          alt='Alternativa claim: Embrace your inner flow'
-          width={250}
-          height={250/4.77}
-          priority
-        />    
+        <div className={styles.claim}>
+          <Image
+            src='/logo-text.webp'
+            alt='Alternativa claim: Embrace your inner flow'
+            width={250}
+            height={250/4.77}
+            priority
+          />    
+        </div>
       </header>
       <main className={styles.main}>
         <div className={styles.heading}>

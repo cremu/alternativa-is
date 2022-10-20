@@ -91,7 +91,12 @@
   }
   .logo {
     position: static;
+    max-width: 55px;
+
     margin-bottom: 10px;
+  }
+  .claim {
+    max-width: 190px;
   }
   /* MAIN */
   .heading {
@@ -113,6 +118,7 @@
   /* FOOTER */
   .footer {
     flex-direction: column;
+    padding: 25px 20px; 
   }
   .email {
     margin-left: 0px;
